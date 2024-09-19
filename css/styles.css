@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.card-container {
+  height: 100%;
+  display: flex;
+  /* Använd rätt flex-property på denna rad för att flytta ner kort när det inte finns tillräckligt med plats på raden längre */
+  /* Använd rätt flex-property på denna rad för att fördela korten jämnt över skärmens bredd */
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  flex-grow: 1;
+  /* Använd rätt flex-property på denna rad för att centrera korten i höjdled på sidan */
+}
+
+.red {
+  background-color: red;
+  /* Använd rätt flex-property på denna rad för att tillåta kort 3 att bli upp till dubbelt så brett som de övriga korten om plats finns på skärmen */
+}
